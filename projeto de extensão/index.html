@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnologia na Educação</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f9f9f9; color: #333; }
+    header { background: #0056b3; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+    nav ul { display: flex; list-style: none; }
+    nav ul li { margin-left: 20px; }
+    nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+    .cta-button { background: white; color: #0056b3; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; }
+    .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+    section { margin-bottom: 40px; }
+    h1, h2 { color: #0056b3; margin-bottom: 15px; }
+    footer { background: #0056b3; color: white; text-align: center; padding: 20px 0; margin-top: 40px; }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      background: #000;
+      margin-top: 20px;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>TechEdu</strong></div>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#importancia">Importância</a></li>
+        <li><a href="#metodologia">Metodologia</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <a href="#importancia" class="cta-button">Saiba Mais</a>
+  </header>
+
+  <div class="container">
+    <section id="sobre">
+      <h1>Sobre o Projeto</h1>
+      <p>Este projeto de extensão visa discutir e promover a inclusão do ensino tecnológico nas escolas brasileiras, preparando alunos para um futuro cada vez mais digital e conectado.</p>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/kMYvVWJZx-E" title="Tecnologia na Educação" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="importancia">
+      <h2>Importância do Ensino Tecnológico nas Escolas</h2>
+      <p>O avanço tecnológico transformou a maneira como vivemos, trabalhamos e aprendemos. A pandemia de COVID-19 evidenciou a urgência de integrar ferramentas digitais ao ambiente escolar. Estudantes e professores foram forçados a adaptar-se rapidamente ao ensino remoto, revelando lacunas significativas no acesso e domínio das tecnologias.</p>
+      <p>Promover o ensino de tecnologia desde cedo nas escolas permite que os alunos desenvolvam habilidades fundamentais como pensamento computacional, resolução de problemas, colaboração online e segurança digital. Essas competências são cada vez mais exigidas no mercado de trabalho e essenciais para a formação de cidadãos críticos e conscientes.</p>
+    </section>
+
+    <section id="metodologia">
+      <h2>Como Aplicar em Sala de Aula</h2>
+      <ul>
+        <li><strong>Programação e Robótica:</strong> Clubes escolares com plataformas como Arduino, Scratch (programação por blocos para crianças) e LEGO Mindstorms (robôs educacionais interativos).</li>
+        <li><strong>Gamificação:</strong> Uso de ferramentas que tornam o aprendizado mais dinâmico e divertido:
+          <ul>
+            <li><strong>Kahoot:</strong> Criação de quizzes interativos para revisar conteúdos de forma lúdica.</li>
+            <li><strong>Classcraft:</strong> Plataforma que transforma a sala de aula em uma aventura de RPG onde os alunos ganham pontos por boas ações e desempenho.</li>
+            <li><strong>Minecraft Education:</strong> Versão educacional do famoso jogo que permite ensinar conteúdos de ciência, matemática, história e muito mais com blocos e missões criativas.</li>
+          </ul>
+        </li>
+        <li><strong>Ferramentas Colaborativas:</strong> Promovem o trabalho em grupo mesmo à distância:
+          <ul>
+            <li><strong>Google Classroom:</strong> Ambiente virtual para organizar tarefas, enviar conteúdos e dar feedbacks.</li>
+            <li><strong>Padlet:</strong> Mural digital para brainstorms, portfólios e apresentações colaborativas.</li>
+            <li><strong>Trello:</strong> Organização de projetos escolares com listas, prazos e tarefas.</li>
+          </ul>
+        </li>
+        <li><strong>Educação Midiática:</strong> Incentiva a análise crítica de informações online, combate às fake news e desenvolve habilidades de comunicação através da produção de vídeos, podcasts e blogs.</li>
+        <li><strong>Projetos Interdisciplinares:</strong> Integração da tecnologia com diversas disciplinas para resolver problemas reais, como criar apps educativos em matemática ou mapas interativos em geografia.</li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: contato@techedu.com</p>
+      <p>Instagram: @techedu.projeto</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Projeto TechEdu | Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
